@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.language }}">
+  {{ partial "header.html" . }}
+  <body>
+    {{ partial "single_subheader.html" . }}
+
+    <article id="{{ .Title }}">
+      <header>
+        <h2>{{ .Title }}</h2>
+      </header>
+      <section class="small-padding">
+        {{ .Content }}
+      </section>
+    </article>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

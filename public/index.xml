@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Guild</title>
+    <link>http://deginner.com/</link>
+    <description>Recent content on Git Guild</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2015 23:11:06 -0500</lastBuildDate>
+    <atom:link href="http://deginner.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contracts</title>
+      <link>http://deginner.com/contracts/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0500</pubDate>
+      
+      <guid>http://deginner.com/contracts/</guid>
+      <description>&lt;p&gt;Many industries evolve their own unique contract terms and clauses. To the extent that they can be described in algorithmic terms, they can be programmed into smart contracts and approved by the Guild for use in the network. Once a contract type has been approved, transactions using it can be created, and arbitrated accordingly.&lt;/p&gt;
+
+&lt;p&gt;For example, lets take a simple fee for service model. This is a contract type that almost all Guilds would allow. A fee for service contract might be required to have a documented issue matching a particular format, a public key for the issue reporter, Bitcoins deposited in escrow, and requirements for satisfactory completion. This is a very fancy way of saying: make a github bug report or feature request and pay up front. In return, the completion and quality of the work are guaranteed by the guild, or you get your money back.&lt;/p&gt;
+
+&lt;p&gt;For the developer looking at taking this fee for service contract, they know exactly what work needs to be done, the amount of pay (in escrow already), and that any dispute will be settled by peer review.&lt;/p&gt;
+
+&lt;p&gt;Other contracts may involve recurring payments being made to developers. These can similarly be monitored and arbitrated by the network. For instance, if the contract has a clause dictating quarterly revenue sharing, the network can look for a transaction each quarter that matches the expected format and amount. By making the payment on-network, the payer is ensured proper documentation and recognition of the payment in case of arbitration. By receiving the payment on the network, the payee also receives benefits such as arbitration and public rebuke in case of default.
+If there is a very complex dispute, a guild-approved or contractually dictated accounting firm could be used to review the books and make a detailed recommendation, which could be paid for by the disputants or out of Guild funds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>http://deginner.com/economics/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0500</pubDate>
+      
+      <guid>http://deginner.com/economics/</guid>
+      <description>&lt;p&gt;The guild will be able to manage project budgets via multi-signature cryptocurrency wallets. For example, if the organization has 9 code reviewers, a 5 of 9 multisig Bitcoin wallet could be created, and a majority of the reviewers would need to sign off on any payments. To continue the example, a developer could submit a pull request in response to a bounty. If 5 of the 9 reviewers agree that the pull request is satisfactory, the payment will be made.&lt;/p&gt;
+
+&lt;p&gt;Non-coding roles such as testers, project managers, and code reviewers can be defined in the charter, and the individuals rewarded according to the fulfilment of their responsibilities.&lt;/p&gt;
+
+&lt;p&gt;While the specific rewards, jobs, and inflation rate should be determined on a case-by-case basis, the theoretical idea is that some small and manageable amount of value will be awarded to anyone performing quality, peer-reviewed, open source work. Specific jobs will be created on the network, similar to Dash&amp;rsquo;s Masternodes, which will be responsible for this peer-review. Other specialized tasks such as editing and documentation can be similarly counted, reviewed, and rewarded.&lt;/p&gt;
+
+&lt;p&gt;To the extent all of this activity is documented in peer-reviewable commits, the contributors will all be rewarded with the Bitcoins held in escrow. Amazing, all the volunteers got paid!&lt;/p&gt;
+
+&lt;p&gt;The peer-review model will incentivize higher quality of work for guild contracts, as well as a highly meritocratic arbitration body. Theoretically, this peer-review model and Git Guild could be used in any profession that can track their work through Git or a similarly digitized and signed mechanism.&lt;/p&gt;
+
+&lt;p&gt;If a client wants to sponsor specific enhancements or bug fixes to the project, the funding would be deposited into the guild&amp;rsquo;s treasury via a P2SH bitcoin address. From then on, the guild will manage the funds and execution of the task.&lt;/p&gt;
+
+&lt;p&gt;No venture capitalists, incorporation, or contact with meatspace is required.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Governance</title>
+      <link>http://deginner.com/governance/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0500</pubDate>
+      
+      <guid>http://deginner.com/governance/</guid>
+      <description>&lt;p&gt;A guild is formed upon two or more individuals PGP signing a Charter that specifies the purpose of a software project and the rules that govern the development of the project. These can include definitions of membership, roles, responsibilities, code quality standards, monetary policy, etc. Any flexibility, such as fee allocation or amount, ammendment to election or membership bylaws, monetary policy changes, and the protocol itself must have their scopes and abilities defined.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Pretty_Good_Privacy&#34; target=&#34;_blank&#34;&gt;PGP&lt;/a&gt; have been chosen as the basis for the workflow and cryptographic signatures respectively because these technologies are already widely used in open source projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;dash.org&#34; target=&#34;_blank&#34;&gt;Dash&lt;/a&gt; provides a powerful and flexible governance model to base Git Guild off of. Just like Dash masternodes, certain Guild members will be empowered by the network to perform jobs, cast votes on various issues, and may be eligible to recieve a portion of network fees in return. Just like Dash masternodes, it is recommended that these empowered members be required to put up some collateral and perform their duties consistently and in a peer-reviewable manner.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>http://deginner.com/motivation/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0500</pubDate>
+      
+      <guid>http://deginner.com/motivation/</guid>
+      <description>&lt;p&gt;Open source projects are notoriously hard to monetize and organize. &amp;ldquo;Herding cats&amp;rdquo; is an analogy often heard. Conversely, corporate bureaucracy is often an expensive externality which can undermine the founding principles of a software project.&lt;/p&gt;
+
+&lt;p&gt;The emergence of cryptographic implements, such as PGP and Bitcoin, have created a new paradigm which enables the minimization of resource intensive externalities and allows individuals to focus on code quality.&lt;/p&gt;
+
+&lt;p&gt;Git Guild is a meritocractic governance model focused on improving the organization and monetization of open source software development. Git Guild is a means to enable transparency, accountability, quality control and renumeration between freely associating individuals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quality Control</title>
+      <link>http://deginner.com/quality/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0500</pubDate>
+      
+      <guid>http://deginner.com/quality/</guid>
+      <description>&lt;p&gt;Peer review is a foundational aspect of the scientific method. Computer scientists are arguably the most meticulous of all about maintaining and tracking each and every contribution. Specifically, version control systems such as Git support near perfect accounting of contributions to documents of a wide variety of formats.&lt;/p&gt;
+
+&lt;p&gt;As there are already tens of millions of open source developers out there, arguably representing billions of USD worth of value, this is a huge sector going untapped and undeveloped. Thankfully, Git aleady provides provable, perfectly documented and sometimes even cryptographically signed records of all contributions to each of these projects.&lt;/p&gt;
+
+&lt;p&gt;Git Guild combines these documented, signed git contributions with Bitcoin as a reserve currency to create a structured, community driven and funded framework for development.&lt;/p&gt;
+
+&lt;p&gt;Simply document the task or contract in a guild-approved format, deposit Bitcoin as payment, and a pull request meeting guild standards for peer review will be required to retrieve the payment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://deginner.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deginner.com/contact/</guid>
+      <description>&lt;form action=&#39;https://crm.zoho.com/crm/WebToLeadForm&#39;
+      name=WebToLeads1729302000000110005 method=&#39;POST&#39;
+      onSubmit=&#39;return checkMandatory()&#39;
+      accept-charset=&#39;UTF-8&#39;&gt;
+
+  &lt;!-- Required internal fields. --&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;xnQsjsdp&#39; value=&#39;d3b1137b095581ac2be866e9362c6bfc11145c48a5400dfa6fa30f2d967cfd47&#39;/&gt;
+  &lt;input type=&#39;hidden&#39; name=&#39;zc_gad&#39; id=&#39;zc_gad&#39; value=&#39;&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;xmIwtLD&#39; value=&#39;be71074d0bfc53517421f4618a1d4dd475cb7cbfe70d9e4ca13467b7e27c9a54&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39;  name=&#39;actionType&#39; value=&#39;TGVhZHM=&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;returnURL&#39; value=&#39;http://deginner.com/&#39; /&gt;
+   &lt;!-- Required internal fields. --&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;firstname&#34;&gt;Name
+      &lt;span class=&#34;form-error&#34; id=&#34;error-name&#34;&gt;Please specify your name&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;div class=&#34;form-half-row&#34; style=&#34;padding-right: 2%&#34;&gt;
+      &lt;input type=&#34;text&#34; maxlength=&#34;40&#34; name=&#34;First Name&#34; id=&#34;firstname&#34;
+          placeholder=&#34;First&#34;&gt;
+    &lt;/div&gt;&lt;div class=&#34;form-half-row&#34;&gt;
+      &lt;input type=&#34;text&#34; maxlength=&#34;80&#34; name=&#34;Last Name&#34; id=&#34;lastname&#34;
+          placeholder=&#34;Last&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;email&#34;&gt;Email
+      &lt;span class=&#34;form-error&#34; id=&#34;error-email&#34;&gt;
+        Please specify your email so we can communicate with you
+      &lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&#34;text&#34; maxlength=&#34;100&#34; name=&#34;Email&#34; id=&#34;email&#34;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;company&#34;&gt;Company &lt;span class=&#34;contact-info&#34;&gt;optional&lt;/span&gt;&lt;/label&gt;
+    &lt;input type=&#34;text&#34; maxlength=&#34;100&#34; name=&#34;Company&#34; id=&#34;company&#34;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;message&#34;&gt;Message
+      &lt;span class=&#34;form-error&#34; id=&#34;error-message&#34;&gt;
+        We will need some message to know what you are after
+      &lt;/span&gt;
+    &lt;/label&gt;
+    &lt;textarea name=&#34;Description&#34; id=&#34;message&#34; cols=&#34;40&#34; rows=&#34;10&#34; maxlength=&#34;1000&#34;&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-align&#34;&gt;
+    &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+    &lt;span class=&#34;contact-info&#34;&gt;You will receive a copy of this contact
+request.&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    var fields = [&#39;firstname&#39;, &#39;lastname&#39;, &#39;email&#39;, &#39;message&#39;];
+    var basicEmail = /^[^ @]+@([^ @]+){2,}\.([^ @]+){2,}$/;
+
+    function checkMandatory() {
+      /* Hide any errors. */
+      var allErrors = document.getElementsByClassName(&#39;form-error&#39;);
+      for (var i = 0; i &lt; allErrors.length; i++) {
+        allErrors[i].style.display = &#39;none&#39;;
+      }
+
+      /* Validate the form. */
+      var form = document.forms[&#39;WebToLeads1729302000000110005&#39;];
+      for (var i = 0; i &lt; fields.length; i++) {
+        var fieldObj = form[fields[i]];
+        if (fieldObj) {
+          var failed = fieldObj.value.replace(/^\s+|\s+$/g, &#39;&#39;).length === 0;
+          if (!failed &amp;&amp; fields[i] === &#39;email&#39;) {
+            failed = !basicEmail.test(fieldObj.value);
+          }
+
+          if (failed) {
+            fieldObj.focus();
+            var name = fields[i];
+            if (name.endsWith(&#39;name&#39;)) {
+              name = &#39;name&#39;;
+            }
+            var err = document.getElementById(&#39;error-&#39; + name);
+            if (err) {
+              err.style.display = &#39;block&#39;;
+            }
+            return false;
+          }
+        }
+      }
+    }
+  &lt;/script&gt;
+&lt;/form&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

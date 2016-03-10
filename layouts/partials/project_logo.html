@@ -1,0 +1,18 @@
+{{ $section := .Section }}
+
+{{ $.Scratch.Add "class" "project" }}
+{{ if eq $section "devProjects" }}
+  {{ $.Scratch.Add "class" "-dev" }}
+{{ else if eq $section "upcomingProjects" }}
+  {{ $.Scratch.Add "class" "-upcoming" }}
+{{ end }}
+{{ $class := $.Scratch.Get "class" }}
+
+{{ if gt (len .Params.logo) 1 }}
+  <img class="{{ $class }}-logo" alt="" src="{{ .Params.logo }}">
+{{ else }}
+  {{ $name := replace .Title " " "" | lower }}
+  <span class="{{ $class }}-logo simple-generic-logo simple-{{ $class }}-logo {{ $name }}-bg">
+    {{ .Params.logo }}
+  </span>
+{{ end }}

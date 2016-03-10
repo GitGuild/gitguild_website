@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Git Guild</title>
+    <link>http://deginner.com/contact/</link>
+    <description>Recent content in Contacts on Git Guild</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://deginner.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://deginner.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deginner.com/contact/</guid>
+      <description>&lt;form action=&#39;https://crm.zoho.com/crm/WebToLeadForm&#39;
+      name=WebToLeads1729302000000110005 method=&#39;POST&#39;
+      onSubmit=&#39;return checkMandatory()&#39;
+      accept-charset=&#39;UTF-8&#39;&gt;
+
+  &lt;!-- Required internal fields. --&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;xnQsjsdp&#39; value=&#39;d3b1137b095581ac2be866e9362c6bfc11145c48a5400dfa6fa30f2d967cfd47&#39;/&gt;
+  &lt;input type=&#39;hidden&#39; name=&#39;zc_gad&#39; id=&#39;zc_gad&#39; value=&#39;&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;xmIwtLD&#39; value=&#39;be71074d0bfc53517421f4618a1d4dd475cb7cbfe70d9e4ca13467b7e27c9a54&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39;  name=&#39;actionType&#39; value=&#39;TGVhZHM=&#39;/&gt;
+  &lt;input type=&#39;text&#39; style=&#39;display:none;&#39; name=&#39;returnURL&#39; value=&#39;http://deginner.com/&#39; /&gt;
+   &lt;!-- Required internal fields. --&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;firstname&#34;&gt;Name
+      &lt;span class=&#34;form-error&#34; id=&#34;error-name&#34;&gt;Please specify your name&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;div class=&#34;form-half-row&#34; style=&#34;padding-right: 2%&#34;&gt;
+      &lt;input type=&#34;text&#34; maxlength=&#34;40&#34; name=&#34;First Name&#34; id=&#34;firstname&#34;
+          placeholder=&#34;First&#34;&gt;
+    &lt;/div&gt;&lt;div class=&#34;form-half-row&#34;&gt;
+      &lt;input type=&#34;text&#34; maxlength=&#34;80&#34; name=&#34;Last Name&#34; id=&#34;lastname&#34;
+          placeholder=&#34;Last&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;email&#34;&gt;Email
+      &lt;span class=&#34;form-error&#34; id=&#34;error-email&#34;&gt;
+        Please specify your email so we can communicate with you
+      &lt;/span&gt;
+    &lt;/label&gt;
+    &lt;input type=&#34;text&#34; maxlength=&#34;100&#34; name=&#34;Email&#34; id=&#34;email&#34;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;company&#34;&gt;Company &lt;span class=&#34;contact-info&#34;&gt;optional&lt;/span&gt;&lt;/label&gt;
+    &lt;input type=&#34;text&#34; maxlength=&#34;100&#34; name=&#34;Company&#34; id=&#34;company&#34;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-row&#34;&gt;
+    &lt;label for=&#34;message&#34;&gt;Message
+      &lt;span class=&#34;form-error&#34; id=&#34;error-message&#34;&gt;
+        We will need some message to know what you are after
+      &lt;/span&gt;
+    &lt;/label&gt;
+    &lt;textarea name=&#34;Description&#34; id=&#34;message&#34; cols=&#34;40&#34; rows=&#34;10&#34; maxlength=&#34;1000&#34;&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;form-align&#34;&gt;
+    &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+    &lt;span class=&#34;contact-info&#34;&gt;You will receive a copy of this contact
+request.&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    var fields = [&#39;firstname&#39;, &#39;lastname&#39;, &#39;email&#39;, &#39;message&#39;];
+    var basicEmail = /^[^ @]+@([^ @]+){2,}\.([^ @]+){2,}$/;
+
+    function checkMandatory() {
+      /* Hide any errors. */
+      var allErrors = document.getElementsByClassName(&#39;form-error&#39;);
+      for (var i = 0; i &lt; allErrors.length; i++) {
+        allErrors[i].style.display = &#39;none&#39;;
+      }
+
+      /* Validate the form. */
+      var form = document.forms[&#39;WebToLeads1729302000000110005&#39;];
+      for (var i = 0; i &lt; fields.length; i++) {
+        var fieldObj = form[fields[i]];
+        if (fieldObj) {
+          var failed = fieldObj.value.replace(/^\s+|\s+$/g, &#39;&#39;).length === 0;
+          if (!failed &amp;&amp; fields[i] === &#39;email&#39;) {
+            failed = !basicEmail.test(fieldObj.value);
+          }
+
+          if (failed) {
+            fieldObj.focus();
+            var name = fields[i];
+            if (name.endsWith(&#39;name&#39;)) {
+              name = &#39;name&#39;;
+            }
+            var err = document.getElementById(&#39;error-&#39; + name);
+            if (err) {
+              err.style.display = &#39;block&#39;;
+            }
+            return false;
+          }
+        }
+      }
+    }
+  &lt;/script&gt;
+&lt;/form&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

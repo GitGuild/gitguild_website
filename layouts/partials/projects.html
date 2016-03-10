@@ -1,0 +1,74 @@
+{{ range where .Data.Pages "Section" "projects" }}
+<section class="project-section">
+  <header class="project-header">
+    <a href="{{ .Params.mainurl }}" target="_blank">
+      {{ partial "project_logo.html" . }}
+    </a>
+    <p class="project-title">{{ .Title }}</p>
+  </header>
+
+  <div class="project-description">
+    {{ .Content }}
+  </div>
+
+  <aside>
+    {{ if isset .Params "asidetechnologies" }}
+    <h5>Technologies</h5>
+    <p>{{ delimit .Params.asidetechnologies ", " }}</p>
+    {{ end }}
+
+    {{ if isset .Params "asidesourcecode" }}
+    <h5>Source code</h5>
+    <p>{{ .Params.asidesourcecode | markdownify }}</p>
+    {{ end }}
+
+    {{ if isset .Params "asidedemo" }}
+    <h5>Demo</h5>
+    <p>{{ .Params.asidedemo | markdownify }}</p>
+    {{ end }}
+  </aside>
+</section>
+{{ end }}
+
+<section>
+
+  {{ if gt (len (where .Data.Pages "Section" "devProjects")) 0 }}
+  <section class="left-section">
+    <header>In Development</header>
+    {{ range where .Data.Pages "Section" "devProjects" }}
+    <section class="project-dev-section">
+      <header>
+        <a href="{{ .Params.mainurl }}" target="_blank">
+          {{ partial "project_logo.html" . }}
+        </a>
+      </header>
+      <aside>
+        <p class="project-dev-title">{{ .Title }}</p>
+        {{ .Content }}
+      </aside>
+    </section>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ if gt (len (where .Data.Pages "Section" "upcomingProjects")) 0 }}
+  <section class="left-section">
+    <header>Upcoming</header>
+    {{ range where .Data.Pages "Section" "upcomingProjects" }}
+    <section class="project-upcoming-section">
+      <header>
+        <a href="{{ .Params.mainurl }}">
+          {{ partial "project_logo.html" . }}
+        </a>
+        <p class="project-upcoming-title">{{ .Title }}</p>
+      </header>
+      <aside>
+        {{ .Content }}
+      </aside>
+    </section>
+    {{ end }}
+  </section>
+  {{ end }}
+
+<div style="clear: both;"></div>
+

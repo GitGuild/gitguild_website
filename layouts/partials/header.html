@@ -1,0 +1,9 @@
+  <head>
+    <meta charset="{{ .Site.Params.encoding }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <title>{{ .Title }}</title>
+    {{ partial "head_includes.html" . }}
+  </head>
+
