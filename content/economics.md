@@ -12,12 +12,12 @@ The guild will be able to manage project budgets via multi-signature cryptocurre
 
 Non-coding roles such as testers, project managers, and code reviewers can be defined in the charter, and the individuals rewarded according to the fulfilment of their responsibilities.
 
-While the specific rewards, jobs, and inflation rate should be determined on a case-by-case basis, the theoretical idea is that some small and manageable amount of value will be awarded to anyone performing quality, peer-reviewed, open source work. Specific jobs will be created on the network, similar to Dash's Masternodes, which will be responsible for this peer-review. Other specialized tasks such as editing and documentation can be similarly counted, reviewed, and rewarded.
+While the specific jobs and their value should be determined on a case-by-case basis, the theoretical idea is that some small and manageable amount of value will be awarded to anyone performing quality, peer-reviewed, open source work. Specific jobs will be created on the network, similar to Dash's Masternodes, which will be responsible for this peer-review. Other specialized tasks such as editing and documentation can be similarly counted, reviewed, and rewarded.
 
-To the extent all of this activity is documented in peer-reviewable commits, the contributors will all be rewarded with the Bitcoins held in escrow. Amazing, all the volunteers got paid!
+To the extent all of this activity is documented in peer-reviewable commits, the contributors will all be rewarded with the Bitcoins held in escrow.
 
 The peer-review model will incentivize higher quality of work for guild contracts, as well as a highly meritocratic arbitration body. Theoretically, this peer-review model and Git Guild could be used in any profession that can track their work through Git or a similarly digitized and signed mechanism.
 
-If a client wants to sponsor specific enhancements or bug fixes to the project, the funding would be deposited into the guild's treasury via a P2SH bitcoin address. From then on, the guild will manage the funds and execution of the task. 
+If a client wants to sponsor specific enhancements or bug fixes to the project, the funding would be deposited into the guild's treasury via a P2SH bitcoin address. From then on, the guild will manage the funds and execution of the task.
 
 No venture capitalists, incorporation, or contact with meatspace is required.
