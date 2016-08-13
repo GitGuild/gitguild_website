@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tenets on Git Guild - Open Source Governance</title>
+    <link>http://deginner.com/categories/tenets/</link>
+    <description>Recent content in Tenets on Git Guild - Open Source Governance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2015 23:11:06 -0504</lastBuildDate>
+    <atom:link href="http://deginner.com/categories/tenets/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Governance</title>
+      <link>http://deginner.com/tenet/governance/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0504</pubDate>
+      
+      <guid>http://deginner.com/tenet/governance/</guid>
+      <description>&lt;p&gt;A guild is formed upon two or more individuals PGP signing a Charter that specifies the purpose of a software project and the rules that govern the development of the project. These can include definitions of membership, roles, responsibilities, code quality standards, monetary policy, etc. Any flexibility, such as fee allocation or amount, ammendment to election or membership bylaws, monetary policy changes, and the protocol itself must have their scopes and abilities defined.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; and PGP have been chosen as the basis for the workflow and cryptographic signatures respectively because these technologies are already widely used in open source projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;dash.org&#34; target=&#34;_blank&#34;&gt;Dash&lt;/a&gt; provides a powerful and flexible governance model to base Git Guild off of. Just like Dash masternodes, certain Guild members will be empowered by the network to perform jobs, cast votes on various issues, and may be eligible to recieve a portion of network fees in return. Just like Dash masternodes, it is recommended that these empowered members be required to put up some collateral and perform their duties consistently and in a peer-reviewable manner.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>http://deginner.com/tenet/economics/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0503</pubDate>
+      
+      <guid>http://deginner.com/tenet/economics/</guid>
+      <description>&lt;p&gt;The guild will be able to manage project budgets via multi-signature cryptocurrency wallets. For example, if the organization has 9 code reviewers, a 5 of 9 multisig Bitcoin wallet could be created, and a majority of the reviewers would need to sign off on any payments. To continue the example, a developer could submit a pull request in response to a bounty. If 5 of the 9 reviewers agree that the pull request is satisfactory, the payment will be made.&lt;/p&gt;
+
+&lt;p&gt;Non-coding roles such as testers, project managers, and code reviewers can be defined in the charter, and the individuals rewarded according to the fulfilment of their responsibilities.&lt;/p&gt;
+
+&lt;p&gt;While the specific jobs and their value should be determined on a case-by-case basis, the theoretical idea is that some small and manageable amount of value will be awarded to anyone performing quality, peer-reviewed, open source work. Specific jobs will be created on the network, similar to Dash&amp;rsquo;s Masternodes, which will be responsible for this peer-review. Other specialized tasks such as editing and documentation can be similarly counted, reviewed, and rewarded.&lt;/p&gt;
+
+&lt;p&gt;To the extent all of this activity is documented in peer-reviewable commits, the contributors will all be rewarded with the Bitcoins held in escrow.&lt;/p&gt;
+
+&lt;p&gt;The peer-review model will incentivize higher quality of work for guild contracts, as well as a highly meritocratic arbitration body. Theoretically, this peer-review model and Git Guild could be used in any profession that can track their work through Git or a similarly digitized and signed mechanism.&lt;/p&gt;
+
+&lt;p&gt;If a client wants to sponsor specific enhancements or bug fixes to the project, the funding would be deposited into the guild&amp;rsquo;s treasury via a P2SH bitcoin address. From then on, the guild will manage the funds and execution of the task.&lt;/p&gt;
+
+&lt;p&gt;No venture capitalists, incorporation, or contact with meatspace is required.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contracts</title>
+      <link>http://deginner.com/tenet/contracts/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0502</pubDate>
+      
+      <guid>http://deginner.com/tenet/contracts/</guid>
+      <description>&lt;p&gt;Many industries evolve their own unique contract terms and clauses. To the extent that they can be described in algorithmic terms, they can be programmed into smart contracts and approved by the Guild for use in the network. Once a contract type has been approved, transactions using it can be created, and arbitrated accordingly.&lt;/p&gt;
+
+&lt;p&gt;For example, lets take a simple fee for service model. This is a contract type that almost all Guilds would allow. A fee for service contract might be required to have a documented issue matching a particular format, a public key for the issue reporter, Bitcoins deposited in escrow, and requirements for satisfactory completion. This is a very fancy way of saying: make a github bug report or feature request and pay up front. In return, the completion and quality of the work are guaranteed by the guild, or you get your money back.&lt;/p&gt;
+
+&lt;p&gt;For the developer looking at taking this fee for service contract, they know exactly what work needs to be done, the amount of pay (in escrow already), and that any dispute will be settled by peer review.&lt;/p&gt;
+
+&lt;p&gt;Other contracts may involve recurring payments being made to developers. These can similarly be monitored and arbitrated by the network. For instance, if the contract has a clause dictating quarterly revenue sharing, the network can look for a transaction each quarter that matches the expected format and amount. By making the payment on-network, the payer is ensured proper documentation and recognition of the payment in case of arbitration. By receiving the payment on the network, the payee also receives benefits such as arbitration and public rebuke in case of default.&lt;/p&gt;
+
+&lt;p&gt;If there is a very complex dispute, a guild-approved or contractually dictated accounting firm could be used to review the books and make a detailed recommendation, which could be paid for by the disputants or out of Guild funds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quality</title>
+      <link>http://deginner.com/tenet/quality/</link>
+      <pubDate>Wed, 25 Nov 2015 23:11:06 -0501</pubDate>
+      
+      <guid>http://deginner.com/tenet/quality/</guid>
+      <description>&lt;p&gt;Peer review is a foundational aspect of the scientific method. Computer scientists are arguably the most meticulous of all about maintaining and tracking each and every contribution. Specifically, version control systems such as Git support near perfect accounting of contributions to documents of a wide variety of formats.&lt;/p&gt;
+
+&lt;p&gt;As there are already tens of millions of open source developers out there, arguably representing billions of USD worth of value, this is a huge sector going untapped and undeveloped. Thankfully, Git aleady provides provable, perfectly documented and sometimes even cryptographically signed records of all contributions to each of these projects.&lt;/p&gt;
+
+&lt;p&gt;Git Guild combines these documented, signed git contributions with Bitcoin as a reserve currency to create a structured, community driven and funded framework for development.&lt;/p&gt;
+
+&lt;p&gt;Simply document the task or contract in a guild-approved format, deposit Bitcoin as payment, and a pull request meeting guild standards for peer review will be required to retrieve the payment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

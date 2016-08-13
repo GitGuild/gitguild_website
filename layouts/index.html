@@ -1,76 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Params.language }}">
-  {{ partial "header.html" . }}
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
   <body>
-    {{ partial "subheader.html" . }}
 
-    {{ range where .Data.Pages ".Title" "Motivation" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
+    <div id="all">
 
-    {{ range where .Data.Pages ".Title" "Governance" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
+        <header>
 
-    {{ range where .Data.Pages ".Title" "Quality Control" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
+          {{ partial "nav.html" . }}
 
-    {{ range where .Data.Pages ".Title" "Contracts" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
+        </header>
 
-    {{ range where .Data.Pages ".Title" "Economics" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
-    
-    {{ range where .Data.Pages ".Title" "Contact Us" }}
-    <article id="{{ .Title }}">
-      <header>
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="small-padding">
-        {{ .Content }}
-      </section>
-    </article>
-    {{ end }}
+        {{ partial "hero.html" . }}
 
-    {{ partial "footer.html" . }}
+        {{ partial "tenets.html" . }}
+
+        {{ partial "polytenets.html" . }}
+
+        <!-- {{ partial "statement.html" . }} -->
+
+        {{ partial "partners.html" . }}
+
+        {{ partial "see_more.html" . }}
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
   </body>
 </html>
-
