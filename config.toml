@@ -103,11 +103,13 @@ theme = "gitguild"
 [params.statement]
     enable = true
 
-# There are two styles for the tenets to appear on the homepage.
-# Choose which to enable here.
 [params.tenets]
     enable = false
+    #One, or the other. Not both.
 [params.polytenets]
+    enable = true
+
+[params.projects]
     enable = true
 
 [params.partners]

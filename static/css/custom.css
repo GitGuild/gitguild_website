@@ -111,13 +111,16 @@
     font-size: 70px;
 }
 
-.polytenets .box-simple p{
-    margin-bottom:2em;
+.truncate-lines{
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.polytenets .box-simple p{
+    margin-bottom:2em;
 }
 .polytenets .box-simple .btn{
     margin-top: auto;
@@ -127,7 +130,26 @@
     padding: 0;
 }
 
+.home-carousel.projects{
+    background: url('../img/code.jpg') center center repeat;
+}
 
+.home-carousel.projects .item{
+    display:flex;
+    flex-direction: row;
+    padding: 10vh 0;
+}
+
+.home-carousel.projects .item p {
+    text-transform: inherit;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+.flex-center{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 
 

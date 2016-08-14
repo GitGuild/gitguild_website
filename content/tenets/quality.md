@@ -2,7 +2,7 @@
 title = "Quality"
 date = "2015-11-25T23:11:06-05:01"
 tags = ["Quality"]
-categories = ["Git Guild", "Tenets"]
+categories = ["Tenets"]
 banner = "img/banners/banner-1.jpg"
 icon = "fa-diamond"
 draft = false

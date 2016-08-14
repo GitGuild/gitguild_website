@@ -2,7 +2,7 @@
 title = "Governance"
 date = "2015-11-25T23:11:06-05:04"
 tags = ["Governance"]
-categories = ["Git Guild", "Tenets"]
+categories = ["Tenets"]
 banner = "img/banners/banner-2.jpg"
 icon = "fa-gavel"
 draft = false

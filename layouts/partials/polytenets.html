@@ -3,15 +3,14 @@
 <section class="bar background-pentagon no-mb polytenets">
     <div class="container">
         <div class="row row-flex">
-            {{ $posts := .Paginate (where .Data.Pages "Type" "tenet") }}
-            {{ range first 4 $posts.Pages }}
+            {{ range where .Data.Pages "Section" "tenets" }}
             <div class="col-md-3">
                 <div class="box-simple box-white">
                     <div class="icon">
                         <i class="fa {{ .Params.icon }}"></i>
                     </div>
                     <h3>{{ .Title }}</h3>
-                    <p>{{ .Summary }}</p>
+                    <p class="truncate-lines">{{ .Summary }}</p>
                     <a href="{{ .Permalink }}" class="btn btn-default btn-sm">Explore {{ .Title }}</a>
                 </div>
             </div>
