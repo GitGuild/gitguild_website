@@ -1,9 +1,11 @@
 +++
 title = "Go is for lovers"
+author = "John Doe"
 date = "2015-09-17T13:47:08+02:00"
-tags = ["go"]
-categories = ["programming"]
+tags = []
+categories = ["Blog"]
 banner = "img/banners/banner-2.jpg"
+draft = false
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

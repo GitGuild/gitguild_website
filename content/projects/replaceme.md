@@ -1,5 +1,5 @@
 +++
-title = "Trade Manager"
+title = "Another Example"
 date = "2015-11-25T23:11:06-05:02"
 tags = []
 categories = ["Projects"]

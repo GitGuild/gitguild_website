@@ -33,7 +33,7 @@ theme = "gitguild"
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "info@devcows.com"
+    # email = "info@devcows.com"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
     copyright = "Copyright &copy; 2016, Git Guild. All rights reserved."
@@ -55,26 +55,32 @@ theme = "gitguild"
 [[params.menu]]
     name = "Home"
     url  = "/"
+    # class = "scroll-to"
     weight = 1
 
 [[params.menu]]
     name = "About"
-    url  = "/about"
+    # url  = "/about"
+    url  = "#tenets"
+    class = "scroll-to"
     weight = 2
 
 [[params.menu]]
     name = "Projects"
-    url  = "/projects"
+    url  = "#projects"
+    class = "scroll-to"
     weight = 3
 
 [[params.menu]]
     name = "Blog"
     url  = "/post"
+    # class = "scroll-to"
     weight = 4
 
 [[params.menu]]
     name = "Contact"
     url  = "/contact"
+    # class = "scroll-to"
     weight = 5
 
 [social]
@@ -115,7 +121,7 @@ theme = "gitguild"
 [params.partners]
     enable = true
     title = "Our Partners"
-    subtitle = "Test subheadline"
+    subtitle = ""
 
 [params.see_more]
     enable = true

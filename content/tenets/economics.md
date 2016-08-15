@@ -1,7 +1,7 @@
 +++
 title = "Economics"
 date = "2015-11-25T23:11:06-05:03"
-tags = ["Economics"]
+tags = []
 categories = ["Tenets"]
 banner = "img/banners/banner-1.jpg"
 icon = "fa-globe"

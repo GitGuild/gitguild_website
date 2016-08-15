@@ -1,9 +1,11 @@
 +++
 title = "Migrate from Jekyll"
+author = "John Doe"
 date = "2015-10-10T13:07:31+02:00"
-tags = ["ipsum"]
-categories = ["lorem"]
+tags = []
+categories = ["Blog"]
 banner = "img/banners/banner-5.jpg"
+draft = false
 +++
 
 ## Move static content to `static`

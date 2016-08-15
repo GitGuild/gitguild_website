@@ -1,7 +1,7 @@
 +++
 title = "Contracts"
 date = "2015-11-25T23:11:06-05:02"
-tags = ["Contracts"]
+tags = []
 categories = ["Tenets"]
 banner = "img/banners/banner-2.jpg"
 icon = "fa-magic"
