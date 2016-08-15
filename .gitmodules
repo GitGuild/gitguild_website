@@ -1,0 +1,3 @@
+[submodule "themes/gitguild"]
+	path = themes/gitguild
+	url = https://github.com/ChrisSavoie/hugo-gitguild-theme

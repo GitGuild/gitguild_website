@@ -1,31 +1,138 @@
-title = "Git Guild"
-baseurl = "http://deginner.com/"
+title = "Git Guild - Open Source Governance"
+baseurl = "http://gitguild.com/"
 languageCode = "en-us"
 
-[params]
-  # Meta parameters.
-  language = "en"
-  encoding = "utf-8"
-  keywords = ["Python", "JavaScript", "Decentralized", "Decentralization", "System D", "Systeme D", "Blockchain", "open source"]
-  description = "Open source software development for decentralization, blockchains and system D"
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = "UA-70782631-1"
 
-  # Top section of the website.
-  topAnchor = "top"
-  logo = "http://i.imgur.com/MINlVoa.png"
-  title = "Git Guild"
-  tagline = "Open Source Governance"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = ""
+
+# Define the number of posts per page
+paginate = 10
+theme = "gitguild"
+
+[params]
+    # Meta parameters.
+    author = "Git Guild"
+    language = "en"
+    encoding = "utf-8"
+    description = "Open source software development for decentralization, blockchains and system D"
+    keywords = "Python, JavaScript, Decentralized, Decentralization, System D, Systeme D, Blockchain, open source"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    # email = "info@devcows.com"
+
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright &copy; 2016, Git Guild. All rights reserved."
+    date_format = "2006-01-02"
+    logo = "img/gitguild-logo.png"
+    address = """<p><strong>The Git Guild</strong>
+        <br>123 Fake Street
+        <br>Unit 37
+        <br>Seattle, WA
+        <br>98104
+        <br>
+        <strong>United States</strong>
+      </p>
+      """
 
 [blackfriday]
-  hrefTargetBlank = true
+    hrefTargetBlank = true
 
-[[menu.main]]
-  name = "Home"
-  weight = 1
-  identifier = "home"
-  url = "/"
+[[params.menu]]
+    name = "Home"
+    url  = "/"
+    # class = "scroll-to"
+    weight = 1
 
-[[menu.main]]
-  name = "Contact"
-  weight = 4
-  identifier = "contact"
-  url = "/contact"
+[[params.menu]]
+    name = "About"
+    # url  = "/about"
+    url  = "#tenets"
+    class = "scroll-to"
+    weight = 2
+
+[[params.menu]]
+    name = "Projects"
+    url  = "#projects"
+    class = "scroll-to"
+    weight = 3
+
+[[params.menu]]
+    name = "Blog"
+    url  = "/post"
+    # class = "scroll-to"
+    weight = 4
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact"
+    # class = "scroll-to"
+    weight = 5
+
+[social]
+    github = "gitguild"
+
+[params.contact]
+    map = true
+    mapLat = 41.1333037
+    mapLng = 1.2467193
+    mapTitle = "GitGuild"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.hero]
+    enable = true
+    pitch = "<h2>Get Your Project Done</h2><h1>With Collaborative Development</h1><h2>For the New Econemy</h2>"
+    cta1 = "View Projects"
+    link1 = "/projects"
+    cta2 = "Learn More"
+    link2 = "/about"
+
+[params.statement]
+    enable = true
+
+[params.tenets]
+    enable = false
+    #One, or the other. Not both.
+[params.polytenets]
+    enable = true
+
+[params.projects]
+    enable = true
+
+[params.partners]
+    enable = true
+    title = "Our Partners"
+    subtitle = ""
+
+[params.see_more]
+    enable = true
+    title = "Do you want to discuss"
+    subtitle = "Your project, Working with The Guild, or More Information?"
+    secondarytitle = "We're only a phone call away"
+    secondarysubtitle = "+1 882 402-8889"
+    link_url = "mailto:info@gitguild.com"
+    link_text = "Email Us"
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
