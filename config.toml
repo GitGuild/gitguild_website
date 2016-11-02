@@ -63,12 +63,6 @@ theme = "gitguild"
     weight = 3
 
 [[params.menu]]
-    name = "Blog"
-    url  = "/post"
-    # class = "scroll-to"
-    weight = 4
-
-[[params.menu]]
     name = "Contact"
     url  = "/contact"
     # class = "scroll-to"
