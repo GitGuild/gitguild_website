@@ -1,6 +1,9 @@
 [submodule "themes/gitguild"]
 	path = themes/gitguild
-	url = https://github.com/ChrisSavoie/hugo-gitguild-theme
+	url = https://github.com/GitGuild/hugo-gitguild-theme.git
 [submodule ".gg"]
 	path = .gg
-	url = https://github.com/GitGuild/gitguild_whitepaper_data.git
+	url = https://github.com/GitGuild/GitGuild.git
+[submodule "public"]
+	path = public
+	url = https://github.com/GitGuild/gitguild.github.io.git

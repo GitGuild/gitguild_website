@@ -1,5 +1,5 @@
 title = "Git Guild - Open Source Governance"
-baseurl = "http://gitguild.com/"
+baseurl = "https://gitguild.com/"
 languageCode = "en-us"
 
 # Enable Google Analytics by entering your tracking code
@@ -35,19 +35,10 @@ theme = "gitguild"
     # Enable the contact form by entering your Formspree.io email
     # email = "info@devcows.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    about_us = "<p>Open source software development for decentralization, blockchains and system D</p>"
     copyright = "Copyright &copy; 2016, Git Guild. All rights reserved."
     date_format = "2006-01-02"
     logo = "img/gitguild-logo.png"
-    address = """<p><strong>The Git Guild</strong>
-        <br>123 Fake Street
-        <br>Unit 37
-        <br>Seattle, WA
-        <br>98104
-        <br>
-        <strong>United States</strong>
-      </p>
-      """
 
 [blackfriday]
     hrefTargetBlank = true
@@ -127,12 +118,12 @@ theme = "gitguild"
     enable = true
     title = "Do you want to discuss"
     subtitle = "Your project, Working with The Guild, or More Information?"
-    secondarytitle = "We're only a phone call away"
-    secondarysubtitle = "+1 882 402-8889"
+    secondarytitle = "Join us on freenode IRC channel #gitguild"
+    secondarysubtitle = "or"
     link_url = "mailto:info@gitguild.com"
     link_text = "Email Us"
 
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    subtitle = ""
